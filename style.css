@@ -1,0 +1,112 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, #1f4037, #99f2c8);
+  font-family: 'Outfit', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: #fff;
+  padding: 20px;
+}
+
+/* Container styling */
+.container {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 25px;
+  font-size: 26px;
+  color: #ffffff;
+}
+
+/* Input group */
+.input-group {
+  margin-bottom: 15px;
+}
+
+input[type="password"] {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  outline: none;
+}
+
+/* Strength meter */
+.strength-meter {
+  width: 100%;
+  height: 12px;
+  background-color: #ddd;
+  border-radius: 8px;
+  margin: 10px 0;
+  overflow: hidden;
+}
+
+.strength-bar {
+  height: 100%;
+  width: 0%;
+  background-color: red;
+  transition: width 0.4s ease-in-out, background-color 0.3s;
+  border-radius: 8px;
+}
+
+#strength-text {
+  font-weight: bold;
+  margin: 10px 0 20px;
+  font-size: 16px;
+}
+
+/* Instructions section */
+.instructions {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.instructions h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #ffd700;
+}
+
+.instructions ul {
+  list-style: none;
+}
+
+.instructions li {
+  margin: 8px 0;
+  font-size: 14px;
+}
+
+/* Feedback section */
+.feedback-section {
+  text-align: left;
+}
+
+.feedback-section h3 {
+  color: #00ffcc;
+  margin-bottom: 10px;
+}
+
+#feedback-list {
+  font-size: 14px;
+  list-style: square;
+  padding-left: 20px;
+}
