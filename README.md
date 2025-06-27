@@ -1,4 +1,5 @@
 # 🔐 Password Complexity Checker
+## 🧠 Task 03 – Prodigy InfoTech Cyber Security Internship
 
 This is a responsive and interactive **Password Complexity Checker** web tool built using **HTML**, **CSS**, and **JavaScript**. It analyzes user-entered passwords in real-time and provides a detailed strength evaluation along with improvement suggestions.
 
@@ -15,12 +16,12 @@ This is a responsive and interactive **Password Complexity Checker** web tool bu
 ---
 ## 🌐 Live Demo
 
-> 📌 *(Optional)* Add a GitHub Pages or Netlify/Vercel deployment link here.
+> 📌 (https://aksgithub250502.github.io/PRODIGY_CS_03/)
 
 ---
 ## 📸 Screenshots
 
-> ![PRODIGY_CS_03_preview](https://github.com/user-attachments/assets/71457550-3b4b-49f1-aa1a-d7ce82a2bc7e)
+> ![PRODIGY_CS_03_preview](https://github.com/user-attachments/assets/e794b322-72c9-40e9-8226-803b637e634c)
 
 ---
 
